@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #222;
+;
+            color: #e0ffe0;
+        }
+
+
+
+        
+        header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background: rgb(21, 21, 21);
+            padding:30px 0 30px 0;
+            margin: 0px 0 40px 0;
+            font-size: 2rem;
+            font-weight: bold;          
+        }
+
+
+
+        .header-logo {
+            display: flex;
+            align-items: center;
+
+            flex-direction: row;
+            gap: 1px;
+            margin-left: 20px;
+        }
+
+        .logo-image {
+            width: 60px;
+            height: 60px;
+            margin: 0 5px;
+            
+        }
+
+        .logo-image img {
+            width: 100%;
+            height: 100%;
+         
+        }
+        .logo-text {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #0f0;
+            letter-spacing: 2px;
+        }
+        .main-content {
+            display: flex;
+            flex-direction: column;         
+            width: 100%;
+            height: 100%;
+            margin: 0px auto;
+        }
+        .block {
+            display: flex;
+            flex-direction: row;       
+            background: #222;
+            overflow: hidden;
+           height: 600px;
+           margin-bottom: 100px;
+           
+          
+        }
+     
+        .block-content {
+         height: 100%;
+         flex:1;                 
+        }
+    
+        .block-image {
+            flex:1;
+            background: #222;
+            padding-right: 20px;
+            
+        }
+        .block-image img {
+        
+            width: 100%;
+            height: 70%;
+        
+        }
+
+        .block-text{
+            margin-left: 30px;
+            margin-top: 1px;
+        }
+
+   
+        .block-text h2{
+            margin-bottom: 15px;
+        }
+        .block-text p{
+            font-size: 1.2rem;
+            line-height: 1.6;
+            
+            max-width: 700px;
+        }
+        
+        .block-btn {
+        
+            background: rgb(3, 173, 3);
+            color: #111;
+            width: 200px;
+            border: none;
+            padding: 18px 36px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;         
+            opacity: 0.92;
+             margin-top: 20px;
+           
+        
+        }
+        .block-btn:hover {
+            background: #111;
+            color: #0f0;
+        }
+
+        footer{
+            display: flex;
+            flex-direction: column;
+            background: rgb(20, 19, 19);
+            padding:20px 0 20px 0;
+            align-items: center;
+            color: #0f0;
+            gap: 10px;
+          
+        }
+        .social-networks{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        
+        
+            gap: 10px;
+        }
+        .social-networks-icon img{
+            width: 40px;
+            height: 40px;
+          
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+         <div class="header-logo">
+             <div class="logo-image">
+            <img src="image.png" alt=""></div>   
+            </div>
+            <div class="logo-text">
+                    <p>UFOLOGIC</p>         
+            </div>    
+                  
+         
+        
+        </div>
+   
+      
+    </header>
+    <div class="main-content">
+  
+        <div class="block">
+            <div class="block-content">
+                <div class="block-text">
+                <h2>Що таке UFOLOGIC?</h2>
+                <p>Ви побачали НЛО, але ніхто вам не вірить. UFOLOGIC спільнота в який кожен може бути почутим! Доєднуйтесь до нас! </p>
+                <button class="block-btn">Реєструйтесь</button>
+            </div>
+                
+            </div>
+            <div class="block-image">
+                <img src="block1.png" alt="Green landscape">
+            </div>
+        </div>
+
+
+        <div class="block">
+    <div class="block-content">
+        <div class="block-text">
+        <h2>Щоденна публікація блогів.</h2>
+        <p> Актуальне інформування щодо інцедентів по всьому світу. Аномалії, привиди, викрадення людей, НЛО, прибулці і навіть більше. Будьте завжди у темі з нами!</p>
+        <button class="block-btn">Реєструйтесь</button>
+    </div>
+    </div>
+    <div class="block-image">
+        <img src="block2.jpg" alt="Green landscape">
+
+    </div>
+    
+
+
+
+    
+        </div>
+
+
+        <div class="block">
+        <div class="block-content">
+            <div class="block-text">
+            <h2>Cтворення власного блогу.</h2>
+            <p> Хочете поділитися страшною тайною яку від нас ховає пентагон? Або бачили привида у закинутій будівлі? Або бачили як людина скинула власну шкіру? Чи машина розчинилася у повітрі. Реєструйтесь як блогер і опишіть свої враження у пості!</p>
+            <button class="block-btn">Реєструйтесь</button>
+        </div>
+        </div>
+        <div class="block-image">
+            <img src="block3.jpg" alt="Green landscape">
+
+        </div>
+        </div>
+
+
+
+        <div class="block">
+        <div class="block-content">
+            <div class="block-text">
+                <h2> Хочети організувати збори проти зла або приєднатись до інших?</h2>
+                <p> Проведіть власний івент у ролі блогера або приєднайтесь до організованого івенту. Разом протистояти легше.</p>
+                <button class="block-btn">Реєструйтесь</button>
+        </div>
+        </div>
+        <div class="block-image">
+            <img src="block4.jpg" alt="Green landscape">
+
+        </div>
+        </div>
+
+          <div class="block">
+        <div class="block-content">
+            <div class="block-text">
+                    <h2> Стали свідком чогось незвичайного</h2>
+                <p> Ви звичайний читач нашого сайту, але побачило щось незвичайне і хочете поділитися, напишіть нам!</p>
+            <button class="block-btn">Реєструйтесь</button>
+            </div>
+        </div>
+        <div class="block-image">
+            <img src="block5.png" alt="Green landscape">
+
+        </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="social-networks">
+          <div class="social-networks-icon">
+                <a href="#"> <img src="icons/greenfacebook.png" alt=""></a>
+
+          </div>   
+          <div class="social-networks-icon">
+                <a href="#"> <img src="icons/youtbgreen.png" alt=""></a>
+
+          </div>  
+          <div class="social-networks-icon">
+                <a href="#"> <img src="icons/greeninstagram.png" alt=""></a>
+
+          </div>
+           <div class="social-networks-icon">
+                <a href="#"> <img src="icons/twittergreen.png" alt=""></a>
+
+          </div>
+            
+
+        </div>
+        <div class="copirtight">
+            © 2025 UFOLOGIC, Inc.
+
+        </div>
+        <div>
+
+        </div>
+    </footer>
+
+  
+    
+    
+</body>
+</html>

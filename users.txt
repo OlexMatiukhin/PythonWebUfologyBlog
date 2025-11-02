@@ -1,0 +1,13 @@
+MainAdmin1!
+Users:
+IAMUSERGOOD
+MEGAUSER1!
+Bloggers:
+parasiuk_oleg
+Imbapas1#
+Admins:
+CustomUser.objects.create_superuser(
+    username='admin',
+    email='admin@example.com',
+    password='supersecurepassword'
+)
